@@ -22,7 +22,7 @@ public class ShipworksController {
 	
 	@RequestMapping(value="shipwrecks",method=RequestMethod.GET)
 	public List<Shipwreck> list() {
-		return shipwreckRepository.findAll();
+		return s
 		
 	}
 
